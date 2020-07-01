@@ -13,7 +13,7 @@ Initialise for each pin you want to debounce
 
 The class includes 3 methods: 
 
- .State() returns the state of the key, LOW is connected to GND, HIGH is connected to VCC.
+ .State() returns the state of the pin, LOW is connected to GND, HIGH is connected to VCC.
  
  .Duration() returns the time in milliseconds between the last two edges.
  
