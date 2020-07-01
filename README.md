@@ -3,9 +3,13 @@
 A class to debounce pins of your arduino
 
 Initialise for each pin you want to debounce
+
   #include "DebouncePin.h"
+  
   class DebouncePin pin10( 10, INPUT_PULLUP ); // switch connects to GND, initial state HIGH. 
+  
   class DebouncePin pin11( 11, INPUT );        // initial state unknown, call pin11.State() in setup(). 
+  
 
 The class includes 3 methods: 
 
